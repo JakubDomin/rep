@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-//Destruktor
+//Destruktor.
 class pracownik {
 public:
  pracownik(const char *, long, float);
