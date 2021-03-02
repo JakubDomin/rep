@@ -14,13 +14,17 @@ public:
  };
 };
 int main(void) {
- pracownik kierownik, sekretarka;
+ pracownik kierownik, sekretarka, programista;
  strcpy (kierownik.imie_nazwisko, "Jan Kowalski");
  kierownik.ident_prac = 101;
  kierownik.pensja = 8400;
  strcpy (sekretarka.imie_nazwisko, "Balbina Wykrot");
  sekretarka.ident_prac = 1234567;
  sekretarka.pensja = 3000;
+ strcpy (programista.imie_nazwisko, "Adam Malysz");
+ programista.ident_prac = 1254567;
+ programista.pensja = 5000;
  kierownik.inf_o_prac();
  sekretarka.inf_o_prac();
+ programista.inf_o_prac();
 }
